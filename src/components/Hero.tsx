@@ -8,7 +8,8 @@ export default function Hero() {
       <section class="flex justify-center text-white customfont-title pt-[100px]">
         <div class='flex justify-center flex-col items-center text-center'>
           <img
-            src="/logoinxta.webp"
+            src="/logoinxta_small.webp"
+            alt="Inxta Logo"
             class="max-w-[150px] mb-6"
             width={150}
             height={150}

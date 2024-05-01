@@ -2,9 +2,9 @@ export default function ChangelogTable() {
   return (
     <>
       <div class="flex justify-center flex-col pb-14 md:px-12">
-        <h5 class="text-[48px] text-slate-900 font-bold md:mt-0 mt-20 mb-4">
+        <h3 class="text-[48px] text-slate-900 font-bold md:mt-0 mt-20 mb-4">
           Versions
-        </h5>
+        </h3>
 
         <table class="customfont-base text-slate-900 text-left md:text-lg text-[8px] overflow-auto">
           <thead class="bg-sky-100 rounded-xl">

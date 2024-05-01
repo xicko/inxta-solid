@@ -10,7 +10,7 @@ export default function About(props: { items: Feature[] }) {
   return (
     <>
       <div class='customfont-base'>
-        <div class='text-slate-900 my-8 space-y-2'>
+        <div class='text-slate-900 my-16 space-y-2 px-2'>
           <h2 class='text-5xl customfont-title font-bold'>About</h2>
           <p class='text-xl'>
             Inxta is a modification of the Android Instagram app, featuring
