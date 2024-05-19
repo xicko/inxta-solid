@@ -5,8 +5,7 @@ import ChangelogTable from "./ChangelogTable";
 const features = [
     {
       name: "Ads free",
-      description:
-        "Blocks all sponsored posts from feed, direct, reels, and explore tabs.",
+      description: "Blocks all sponsored posts from feed, direct, reels, and explore tabs.",
       color: "bg-sky-200",
     },
     {
@@ -46,13 +45,13 @@ const features = [
     }
   ]
 
-export default function MainCard() {
+export default function MainCard({setIsVisible}: any) {
     return(
         <>
             <section class='flex justify-center px-4 my-12'>
                 <div class='md:w-[1310px] w-full px-4 bg-white rounded-[52px] overflow-x-hidden shadow-[0px_0px_35px_0px_rgba(255,255,255,0.25)]'>
                     <About items={features}/>
-                    <ChangelogTable />
+                    <ChangelogTable setIsVisible={setIsVisible}/>
                 </div>
             </section>
         </>

@@ -1,4 +1,4 @@
-export default function ChangelogTable() {
+export default function ChangelogTable(props: { setIsVisible: (value: boolean) => void; }) {
   return (
     <>
       <div class="flex justify-center flex-col pb-14 md:px-12">
@@ -26,7 +26,7 @@ export default function ChangelogTable() {
               <td class="text-slate-100">
                 <button
                   class="bg-zinc-700 rounded-lg md:border-4 border-2 border-zinc-700 md:px-4 px-2 py-1 transition ease duration-150"
-                  
+                  onClick={() => props.setIsVisible(true)}
                 >
                   Changelog
                 </button>
