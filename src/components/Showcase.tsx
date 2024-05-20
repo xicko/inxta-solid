@@ -20,6 +20,7 @@ export default function Showcase(props: {class?: string}) {
                     class={props.class} 
                     draggable={false} 
                     src={screenshots[currentIndex()]}
+                    alt='Screenshot'
                     fetchpriority="high"
                     width='1086'
                     height='2160'></img>
