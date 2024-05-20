@@ -4,7 +4,7 @@ export default function Footer() {
     }
 
     return(
-        <footer class='pb-16 pt-2 text-xl space-y-1 customfont-base'>
+        <footer class='text-center pb-16 pt-2 text-xl space-y-1 customfont-base text-white'>
             <p>© {getCurrentYear()} All rights reserved.</p>
             <p>Made with ❤️ by <a href='https://www.dashnyam.com' target='_blank'>Dashnyam</a></p>
             <p>Built with <a href='https://solidjs.com' target='_blank'>SolidJS</a></p>

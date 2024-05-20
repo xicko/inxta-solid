@@ -1,6 +1,6 @@
 import About from "./About";
 import ChangelogTable from "./ChangelogTable";
-
+import Showcase from "./Showcase";
 
 const features = [
     {
@@ -43,13 +43,14 @@ const features = [
         description: "Dynamic color theme changes colors of elements within the app based on your phone theme.",
         color: "bg-lime-200",
     }
-  ]
+]
 
 export default function MainCard({setIsVisible}: any) {
     return(
         <>
-            <section class='flex justify-center px-4 my-12'>
+            <section class='flex justify-center px-4 my-12 text-center'>
                 <div class='md:w-[1310px] w-full px-4 bg-white rounded-[52px] overflow-x-hidden shadow-[0px_0px_35px_0px_rgba(255,255,255,0.25)]'>
+                    
                     <About items={features}/>
                     <ChangelogTable setIsVisible={setIsVisible}/>
                 </div>

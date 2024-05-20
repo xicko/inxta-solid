@@ -21,6 +21,7 @@
   "dependencies": {
     "@solidjs/meta": "^0.29.3",
     "@solidjs/router": "^0.13.2",
-    "solid-js": "^1.8.11"
+    "solid-js": "^1.8.11",
+    "solid-spring": "^0.0.7"
   }
 }

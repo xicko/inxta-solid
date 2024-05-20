@@ -32,7 +32,7 @@ export default function Modal(props: { setIsVisible: (value: boolean) => void; }
                     <div class='text-black text-start px-10 py-8 text-wrap overflow-y-auto'>
                         <p class='text-4xl font-bold mb-4'>Changelog</p>
                         
-                        <ul class='text-2xl'>
+                        <ul class='md:text-2xl text-xl'>
                             <For each={lists[1]}>
                                 {(item) => <li>{item}</li>}
                             </For>
