@@ -10,7 +10,7 @@ export default function Hero({setIsVisible}: any) {
           <img
             src="/logoinxta_small.webp"
             alt="Inxta Logo"
-            class="max-w-[200px] mb-6"
+            class="md:max-w-[200px] max-w-[150px] mb-6"
             width={300}
             height={300}
             draggable="false"
@@ -34,7 +34,7 @@ export default function Hero({setIsVisible}: any) {
         </div>
 
         <div class='flex justify-center'>
-            <Showcase class='md:h-[60vh] h-[90vh]'/>
+            <Showcase class='md:h-[60vh] h-[80vh]'/>
         </div>
       </section>
     </>
