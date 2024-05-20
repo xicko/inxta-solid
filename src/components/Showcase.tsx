@@ -16,7 +16,13 @@ export default function Showcase(props: {class?: string}) {
     return(
         <>
             <div>
-                <img class={props.class} draggable={false} src={screenshots[currentIndex()]}></img>
+                <img 
+                    class={props.class} 
+                    draggable={false} 
+                    src={screenshots[currentIndex()]}
+                    fetchpriority="high"
+                    width='1086'
+                    height='2160'></img>
             </div>
         </>
     )
