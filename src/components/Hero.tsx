@@ -27,7 +27,7 @@ export default function Hero({setIsVisible}: any) {
             </div>
 
             <div onClick={() => setIsVisible(true)}>
-              <NormalButton text='Changelog' link='' color='bg-slate-200 text-slate-800 md:text-3xl text-xl' glow={true}/>
+              <NormalButton text='Changelog' link='javascript:void(0)' color='bg-slate-200 text-slate-800 md:text-3xl text-xl' glow={true}/>
             </div>
           </div>
 

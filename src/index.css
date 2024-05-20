@@ -13,9 +13,12 @@ code {
     monospace;
 }
 
-
-
-
+// Inactive Link //
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+// Inactive Link //
 
 
 
