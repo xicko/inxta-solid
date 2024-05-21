@@ -10,10 +10,10 @@ export default function Hero({setIsVisible}: any) {
           <img
             src="/logoinxta_small.webp"
             alt="Inxta Logo"
-            class="md:max-w-[200px] max-w-[150px] mb-6"
+            class="md:max-w-[200px] md:max-h-[200px] max-w-[150px] max-h-[150px] mb-6"
             fetchpriority="high"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             draggable="false"
           />
 
