@@ -35,7 +35,7 @@ export default function Hero({setIsVisible}: any) {
         </div>
 
         <div class='flex justify-center'>
-            <Showcase class='w-auto md:h-[60vh] h-[80vh]'/>
+            <Showcase class='md:w-[18vw] w-[75vw] h-auto'/>
         </div>
       </section>
     </>
