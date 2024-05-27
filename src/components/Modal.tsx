@@ -28,7 +28,7 @@ export default function Modal(props: { setIsVisible: (value: boolean) => void; }
             <div class='fixed inset-0 bg-black bg-opacity-30 min-w-full min-h-full'></div>
             
             <div class='customfont-base fixed inset-0 flex justify-center items-center md:px-0 px-6'>
-                <div class='flex flex-col justify-between bg-white rounded-2xl text-lg text-black md:w-[40vw] w-full md:h-[36vh] h-[60vh] overflow-hidden shadow-[0px_0px_36px_-5px_rgba(0,0,0,0.4)]'>
+                <div class='flex flex-col justify-between bg-white rounded-2xl text-lg text-black md:w-[40vw] w-full md:h-[38vh] h-[60vh] overflow-hidden shadow-[0px_0px_36px_-5px_rgba(0,0,0,0.4)]'>
                     <div class='text-black text-start px-10 py-8 text-wrap overflow-y-auto'>
                         <p class='text-4xl font-bold mb-4'>Changelog</p>
                         

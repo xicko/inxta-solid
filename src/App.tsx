@@ -4,6 +4,7 @@ import Background from './components/Background';
 import Hero from './components/Hero';
 import Modal from "./components/Modal";
 import MainCard from './components/MainCard';
+import LocomotiveScroll from './components/LocomotiveScroll';
 
 const App: Component = () => {
   const [IsVisible, setIsVisible] = createSignal(false); // Modal Visibility
@@ -12,15 +13,17 @@ const App: Component = () => {
     <div class='customfont-base'>
       <Background />
 
-      <Hero setIsVisible={setIsVisible}/>
+      <LocomotiveScroll>
+        <Hero setIsVisible={setIsVisible}/>
+
+        <MainCard setIsVisible={setIsVisible}/>
+
+        <Footer />
+      </LocomotiveScroll>
 
       <Show when={IsVisible()}>
         <Modal setIsVisible={setIsVisible}/>
       </Show>
-
-      <MainCard setIsVisible={setIsVisible}/>
-
-      <Footer />
     </div>
   );
 };
