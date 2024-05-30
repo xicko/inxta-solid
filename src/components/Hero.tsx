@@ -31,7 +31,7 @@ export default function Hero({setIsVisible}: any) {
             </div>
           </div>
 
-          <p class='md:text-2xl text-slate-200'>Android 9.0+</p>
+          <p class='customfont-base md:text-2xl text-slate-200'>Android 9.0+</p>
         </div>
 
         <div class='flex justify-center'>
